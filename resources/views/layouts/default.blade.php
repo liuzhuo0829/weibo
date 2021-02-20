@@ -10,6 +10,7 @@
 
 <div class="container">
   @yield('content')
+  @include('shared._message')
   @include('layouts._footer')
 </div>
 </body>
